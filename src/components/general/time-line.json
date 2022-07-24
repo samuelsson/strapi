@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_general_time_lines",
+  "info": {
+    "displayName": "Time Line",
+    "icon": "chart-line",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "List Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "abstract.list-item",
+      "min": 1
+    }
+  }
+}

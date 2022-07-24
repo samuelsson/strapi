@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_general_info_boxes",
+  "info": {
+    "displayName": "Info Box",
+    "icon": "info-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "appearance": {
+      "type": "enumeration",
+      "enum": [
+        "info",
+        "warning",
+        "danger"
+      ],
+      "default": "info",
+      "required": true
+    }
+  }
+}

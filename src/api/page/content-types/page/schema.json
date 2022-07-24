@@ -16,10 +16,12 @@
       "type": "string",
       "required": true
     },
-    "content": {
+    "pageContent": {
       "type": "dynamiczone",
       "components": [
-        "general.rich-text"
+        "general.rich-text",
+        "general.time-line",
+        "general.info-box"
       ]
     },
     "slug": {
